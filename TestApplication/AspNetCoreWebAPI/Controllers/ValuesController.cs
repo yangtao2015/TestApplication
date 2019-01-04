@@ -15,5 +15,11 @@ namespace AspNetCoreWebAPI.Controllers
         {
             return new string[] { "value1", "value2", "value3"};
         }
+
+        [HttpPost]
+        public IActionResult CreatePerson()
+        {
+            return Ok("person-001");
+        }
     }
 }
