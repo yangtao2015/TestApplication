@@ -15,5 +15,11 @@ namespace AspNetCoreWebAPI.Controllers
         {
             return new string[] { "value1", "value2", "value3"};
         }
+
+        [HttpGet]
+        public IActionResult GetPersonById(int id)
+        {
+            return Ok("Person get by id");
+        }
     }
 }
