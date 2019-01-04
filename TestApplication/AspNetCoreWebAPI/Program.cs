@@ -15,6 +15,7 @@ namespace AspNetCoreWebAPI
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
+            var mycode = "0001";
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
